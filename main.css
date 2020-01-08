@@ -1,0 +1,485 @@
+body {
+     font-family: 'Roboto', 'Avenir', sans-serif;
+     font-weight: 300;
+}
+ header {
+     padding: 15px 0;
+     position: absolute;
+     scroll-behavior: smooth;
+}
+ header nav {
+     display: flex;
+     justify-content: flex-end;
+}
+ .button {
+     background-color: transparent;
+     border: 3px;
+     padding: 15px 28px;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     border-radius: 20px;
+     position: relative;
+     right: -450px;
+     color: #4863A0;
+}
+ .button span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     transition: 0.5s;
+}
+ .button span:after {
+     content: '\00bb';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 0.5s;
+}
+ .button:hover span {
+     padding-right: 15px;
+}
+ .button:hover span:after {
+     opacity: 1;
+     right: 0;
+}
+ .mypic {
+     border-radius: 50%;
+     border-style: solid;
+     border-color: #DCDCDC;
+     border-width: 10px;
+     position: relative;
+     top: 450px;
+     right: -450px;
+     height: 230px;
+}
+ .main {
+     display: flex;
+     align-items: center;
+     background-image: url('https://www.billzy.com/wp-content/uploads/2019/06/invoice-on-one.jpg');
+     background-size: cover;
+     height: 600px;
+     text-shadow: 0.25px 0.25px 0.25px #000000;
+     scroll-behavior: smooth;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ .main h2 {
+     font-size: 80px;
+     font-weight: 700;
+     margin: 0;
+     color: #fff;
+     position: relative;
+     top: 110px;
+     font-family: Verdana, sans-serif;
+}
+ .main h3 {
+     margin: 0 0 20px;
+     color: black;
+     position: relative;
+     top: 110px;
+     font-family: Avenir Black;
+}
+ .downarrow {
+     transform: rotate(45deg);
+     -webkit-transform: rotate(45deg);
+     position: relative;
+     top: 130px;
+     border-radius: 5px;
+}
+ .item active {
+     height: 400px;
+}
+ .item {
+     height: 400px;
+}
+ .about {
+     display: flex;
+     align-items: center;
+     background-size: cover;
+     height: 450px;
+     position: relative;
+     top: -50px;
+     color: red;
+     scroll-behavior: smooth;
+}
+ .about h2 {
+     font-size: 33px;
+     font-weight: bold;
+     color: black;
+     position: relative;
+     left: -480px;
+     top: 140px;
+     font-family: Avenir Black;
+}
+ .text1 {
+     color: black;
+     position: relative;
+     top: 145px;
+     right: -22px;
+}
+ .text2 {
+     color: black;
+     position: relative;
+     top: -78px;
+     right: -500px;
+}
+ .parallex1 {
+     display: flex;
+     align-items: center;
+     background-image: url('https://collegeinfogeek.com/wp-content/uploads/2018/04/50-personal-website-examples-featured-image.jpg');
+     background-size: cover;
+     height: 350px;
+     text-shadow: 0.25px 0.25px 0.25px #000000;
+     scroll-behavior: smooth;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ hr.line1 {
+     border: 3px solid red;
+     border-radius: 1px;
+     width: 5%;
+     position: relative;
+     top: 145px;
+     left: 20px;
+}
+ i {
+     border: solid black;
+     border-width: 0 6px 6px 0;
+     display: inline-block;
+     padding: 10px;
+}
+ .buttonresume {
+     border: none;
+     color: white;
+     padding: 13px 40px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     position: relative;
+     top: -340px;
+     right: -460px;
+}
+ .resume {
+     background-color: white;
+     color: black;
+     border: 2px solid black;
+}
+ .resume:hover {
+     background-color: #DCDCDC;
+}
+ .projects {
+     position: static;
+     background-color: black;
+     margin-left: 50px;
+     margin-bottom: 50px;
+     margin-top: 50px;
+     margin-right: 50px;
+}
+.projects_copy {
+     position: static;
+     background-color: black;
+     margin-left: 50px;
+     margin-bottom: 50px;
+     margin-top: 50px;
+     margin-right: 50px;
+}
+ .projects h2 {
+     color: white;
+     position: relative;
+     top: 30px;
+     margin-left: 30px;
+     font-weight: bold;
+}
+ .projects h3 {
+     color: white;
+     position: relative;
+     left: 50px;
+     top: 30px;
+     margin-left: -100px;
+     font-weight: bold;
+     float: right;
+}
+ .carousel slide {
+     margin: auto;
+     height: 425px;
+}
+ .carousel slide1 {
+     margin: auto;
+     height: 425px;
+}
+ .viewproject1 {
+     padding: 13px 40px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     position: relative;
+     top: -200px;
+     right: -90px;
+     background-color: black;
+     color: white;
+     border: 2px solid white;
+	 border-radius: 12px;
+}
+ .viewproject1:hover {
+     background-color: white;
+	 color: black;
+}
+ .viewproject2 {
+     padding: 13px 40px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     position: relative;
+     top: -220px;
+     right: -90px;
+     background-color: black;
+     color: white;
+     border: 2px solid white;
+	 border-radius: 12px;
+}
+ .viewproject2:hover {
+     background-color: white;
+	 color: black;
+}
+ .viewproject3 {
+     padding: 13px 40px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     position: relative;
+     top: -370px;
+     right: -90px;
+     background-color: black;
+     color: white;
+     border: 2px solid white;
+	 border-radius: 12px;
+}
+ .viewproject3:hover {
+     background-color: white;
+	 color: black;
+}
+ .item h3 {
+	 position: relative;
+	 margin-left: 40px;
+	 margin-right: 820px;
+ }
+ .rubikscube {
+     width: 60%;
+     align: right;
+     height: 400px;
+     position: relative;
+     top: -215px;
+	 right: -430px;
+	 margin-right: 20px;
+}
+ .game {
+     width: 60%;
+     align: right;
+     height: 400px;
+     position: relative;
+     top: -130px;
+	 left: 440px;
+}
+ .computer {
+     width: 60%;
+     align: right;
+     height: 400px;
+     position: relative;
+     top: -230px;
+	 left: 480px;
+}
+ .parallex2 {
+     display: flex;
+     align-items: center;
+     background-image: url('https://blog.cdw.com/wp-content/uploads/GettyImages-1075599562hero-1280x720.jpg');
+     background-size: cover;
+     height: 350px;
+     text-shadow: 0.25px 0.25px 0.25px #000000;
+     scroll-behavior: smooth;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ .interests {
+     background-color: #ffbe4b;
+     height: 400px;
+     scroll-behavior: smooth;
+}
+ .interests h2 {
+     font-size: 33px;
+     font-weight: bold;
+     color: black;
+     position: relative;
+     left: 10px;
+     top: 10px;
+     font-family: Avenir Black;
+}
+ .parallex3 {
+     display: flex;
+     align-items: center;
+     background-image: url('https://inteng-storage.s3.amazonaws.com/img/iea/3ROaq3erOv/sizes/computer-engineers-successes_resize_md.jpg');
+     background-size: cover;
+     height: 350px;
+     text-shadow: 0.25px 0.25px 0.25px #000000;
+     scroll-behavior: smooth;
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+ .col-md-6 {
+     margin: 0 0 30px;
+}
+ .btn.btn-primary {
+     border-radius: 2px;
+     border: 0px;
+     color: black;
+     text-shadow: none;
+     background-color: #ffffff;
+     position: relative;
+     top: 110px;
+}
+ .btn.btn-primary:hover {
+     color: #ffffff;
+     background-color: black;
+}
+ .btn-secondary {
+     background-color: #E8DFE0;
+     color: #ffffff;
+     margin: 0 0 30px;
+}
+ .info {
+     background-color: #2E4975;
+     height: 385px;
+     width: 75%;
+     position: absolute;
+     left: 0px;
+     scroll-behavior: smooth;
+}
+ .info h2 {
+     color: white;
+     font-size: 33px;
+     font-weight: bold;
+     position: relative;
+     left: -450px;
+     top: 10px;
+}
+ .info h4 {
+     color: white;
+     position: relative;
+     top: 25px;
+     right: -70px;
+}
+ hr.line2 {
+     border: 3px solid red;
+     border-radius: 1px;
+     width: 5%;
+     position: relative;
+     top: 5px;
+     left: 68px;
+}
+ .contact {
+     position: absolute;
+     right: 0px;
+     display: flex;
+     align-items: right;
+     background: #BBC8DD;
+     height: 385px;
+     width: 55%;
+     top: 3042.8px;
+     scroll-behavior: smooth;
+}
+ .contact h2 {
+     color: black;
+     font-size: 33px;
+     font-weight: bold;
+     position: relative;
+     left: 67px;
+     top: 10px;
+}
+ .contact h4 {
+     color: black;
+     text-align: left;
+     position: relative;
+     top: 0px;
+     right: -350px;
+}
+ hr.line3 {
+     border: 3px solid red;
+     border-radius: 1px;
+     width: 5%;
+     position: relative;
+     top: 5px;
+     left: 67px;
+}
+ .vl {
+     border-left: 3px solid black;
+     height: 385px;
+     position: absolute;
+     top: 0px;
+     left: 569px;
+     margin-left: -3px;
+}
+ input[type=submit] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 10px 25px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}  
+ input[type=reset] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 10px 25px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+ footer {
+     font-size: 12px;
+     padding: 15px 0;
+     position: absolute;
+     right: 70px;
+     top: 3435px;
+}
+ footer .col-sm-8 {
+     display: flex;
+     justify-content: flex-end;
+     scroll-behavior: smooth;
+}
+ footer ul {
+     list-style: none;
+}
+ footer li img {
+     width: px;
+     height: 32px;
+}
+ 
