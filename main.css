@@ -341,7 +341,8 @@ body {
      align: right;
      height: 400px;
      position: relative;
-	 left: 480px;
+     bottom: 100px;
+     left: 480px;
 }
  .parallex2 {
      display: flex;
