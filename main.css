@@ -284,7 +284,7 @@ body {
      background-color: white;
 	 color: black;
 }
- .viewproject4 {
+.viewproject4 {
      padding: 13px 40px;
      text-align: center;
      text-decoration: none;
@@ -295,7 +295,7 @@ body {
      transition-duration: 0.4s;
      cursor: pointer;
      position: relative;
-     top: -300px;
+     top: -370px;
      right: -90px;
      background-color: black;
      color: white;
@@ -341,8 +341,8 @@ body {
      align: right;
      height: 400px;
      position: relative;
-     bottom: 200px;
-     left: 480px;
+     top: -230px;
+	 left: 480px;
 }
  .parallex2 {
      display: flex;
