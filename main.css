@@ -306,6 +306,28 @@ body {
      background-color: white;
 	 color: black;
 }
+ .viewproject5 {
+     padding: 13px 40px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     margin: 4px 2px;
+     -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     cursor: pointer;
+     position: relative;
+     top: -250px;
+     right: -90px;
+     background-color: black;
+     color: white;
+     border: 2px solid white;
+	 border-radius: 12px;
+}
+ .viewproject5:hover {
+     background-color: white;
+	 color: black;
+}
  .item h3 {
 	 position: relative;
 	 margin-left: 40px;
@@ -337,6 +359,14 @@ body {
 	 left: 480px;
 }
  .ccc {
+     width: 60%;
+     align: right;
+     height: 400px;
+     position: relative;
+     top: -80px;
+	 left: 480px;
+}
+ .editor {
      width: 60%;
      align: right;
      height: 400px;
